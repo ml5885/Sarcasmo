@@ -175,7 +175,7 @@
             }
 
             function collect_data() {
-                $.post("http://127.0.0.1:9875/handle_data", $("#MSG"),
+                $.post("http://127.0.0.1:9876/handle_data", $("#MSG"),
                     function(data, textStatus, jqXHR) {
                         invoice_status_data = JSON.parse(data)
                         invoice_status_data = invoice_status_data*100
@@ -187,7 +187,7 @@
             };
 
             function collect_labels() {
-                $.post("http://127.0.0.1:9875/radar", $("#MSG"),
+                $.post("http://127.0.0.1:9876/radar", $("#MSG"),
                     function(data){
                         labels = JSON.parse(data)
                         radar_chart();

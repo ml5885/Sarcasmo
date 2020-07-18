@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div0WWOU598ERFQCT3"></div>
+        <div class="lime top_div" id="top_div9U8E8V84ZIB4V0B"></div>
         
         <script>
-        var top_div = d3.select('#top_div0WWOU598ERFQCT3').classed('lime top_div', true);
+        var top_div = d3.select('#top_div9U8E8V84ZIB4V0B').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Not Sarcasm", "Sarcasm"], [0.19949156248887037, 0.8005084375111297]);
+            var pp = new lime.PredictProba(pp_svg, ["Not Sarcasm", "Sarcasm"], [0.25155783610320875, 0.7484421638967912]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Not Sarcasm", "Sarcasm"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Yeah", 0.2679985667937807], ["totally", 0.21403992025103522], ["that", -0.11676697693163442], ["believe", -0.06891457471499973], ["have", -0.02654624445592809], ["you", -0.019942503017331744], ["7", -0.0024669121251746323], ["I", -0.0014288546078305379], ["Ferraris", 0.0004214875237442507]], 1, exp_div);
+                exp.show([["Yeah", 0.22587833016191608], ["totally", 0.18346902841780396], ["that", -0.08625091661055764], ["Obama", 0.08392272303788827], ["both", -0.07593243876746426], ["sure", 0.048287320554993615], ["believe", -0.04673511701350923], ["are", -0.0455323208694666], ["related", -0.045434149227479396], ["to", -0.022563591109499993]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["Yeah", 0, 0.2679985667937807], ["totally", 7, 0.21403992025103522], ["that", 23, -0.11676697693163442], ["believe", 15, -0.06891457471499973], ["have", 32, -0.02654624445592809], ["you", 28, -0.019942503017331744], ["7", 37, -0.0024669121251746323], ["I", 5, -0.0014288546078305379], ["Ferraris", 39, 0.0004214875237442507]], 1, "Yeah I totally believe that you have 7 Ferraris.", raw_div, true);
+            exp.show_raw_text([["Yeah", 0, 0.22587833016191608], ["totally", 13, 0.18346902841780396], ["that", 29, -0.08625091661055764], ["Obama", 79, 0.08392272303788827], ["both", 53, -0.07593243876746426], ["sure", 5, 0.048287320554993615], ["believe", 21, -0.04673511701350923], ["are", 38, -0.0455323208694666], ["related", 42, -0.045434149227479396], ["to", 50, -0.022563591109499993]], 1, "Yeah sure, I totally believe that you are related to both Brad Pitt and Barack Obama", raw_div, true);
             
         </script>
         </body></html>
